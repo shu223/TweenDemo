@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ACEF1BD14ECA86000C728F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACEF1BC14ECA86000C728F6 /* UIKit.framework */; };
+		8ACEF1BF14ECA86000C728F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACEF1BE14ECA86000C728F6 /* Foundation.framework */; };
+		8ACEF1C114ECA86000C728F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACEF1C014ECA86000C728F6 /* CoreGraphics.framework */; };
+		8ACEF1C714ECA86000C728F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF1C514ECA86000C728F6 /* InfoPlist.strings */; };
+		8ACEF1C914ECA86000C728F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1C814ECA86000C728F6 /* main.m */; };
+		8ACEF1CD14ECA86000C728F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1CC14ECA86000C728F6 /* AppDelegate.m */; };
+		8ACEF1D014ECA86000C728F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1CF14ECA86000C728F6 /* ViewController.m */; };
+		8ACEF1D314ECA86000C728F6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF1D114ECA86000C728F6 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ACEF1B814ECA86000C728F6 /* TweenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACEF1BC14ECA86000C728F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ACEF1BE14ECA86000C728F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ACEF1C014ECA86000C728F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ACEF1C414ECA86000C728F6 /* TweenDemo-Info.plist */ = {isa = PBXFileReference; path = "TweenDemo-Info.plist"; sourceTree = "<group>"; };
+		8ACEF1C614ECA86000C728F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ACEF1C814ECA86000C728F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ACEF1CA14ECA86000C728F6 /* TweenDemo-Prefix.pch */ = {isa = PBXFileReference; path = "TweenDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8ACEF1CB14ECA86000C728F6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ACEF1CC14ECA86000C728F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ACEF1CE14ECA86000C728F6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8ACEF1CF14ECA86000C728F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8ACEF1D214ECA86000C728F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ACEF1B514ECA86000C728F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACEF1BD14ECA86000C728F6 /* UIKit.framework in Frameworks */,
+				8ACEF1BF14ECA86000C728F6 /* Foundation.framework in Frameworks */,
+				8ACEF1C114ECA86000C728F6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ACEF1AD14ECA86000C728F6 = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1C214ECA86000C728F6 /* TweenDemo */,
+				8ACEF1BB14ECA86000C728F6 /* Frameworks */,
+				8ACEF1B914ECA86000C728F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ACEF1B914ECA86000C728F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1B814ECA86000C728F6 /* TweenDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ACEF1BB14ECA86000C728F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1BC14ECA86000C728F6 /* UIKit.framework */,
+				8ACEF1BE14ECA86000C728F6 /* Foundation.framework */,
+				8ACEF1C014ECA86000C728F6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ACEF1C214ECA86000C728F6 /* TweenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1CB14ECA86000C728F6 /* AppDelegate.h */,
+				8ACEF1CC14ECA86000C728F6 /* AppDelegate.m */,
+				8ACEF1CE14ECA86000C728F6 /* ViewController.h */,
+				8ACEF1CF14ECA86000C728F6 /* ViewController.m */,
+				8ACEF1D114ECA86000C728F6 /* ViewController.xib */,
+				8ACEF1C314ECA86000C728F6 /* Supporting Files */,
+			);
+			path = TweenDemo;
+			sourceTree = "<group>";
+		};
+		8ACEF1C314ECA86000C728F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1C414ECA86000C728F6 /* TweenDemo-Info.plist */,
+				8ACEF1C514ECA86000C728F6 /* InfoPlist.strings */,
+				8ACEF1C814ECA86000C728F6 /* main.m */,
+				8ACEF1CA14ECA86000C728F6 /* TweenDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ACEF1B714ECA86000C728F6 /* TweenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ACEF1D614ECA86000C728F6 /* Build configuration list for PBXNativeTarget "TweenDemo" */;
+			buildPhases = (
+				8ACEF1B414ECA86000C728F6 /* Sources */,
+				8ACEF1B514ECA86000C728F6 /* Frameworks */,
+				8ACEF1B614ECA86000C728F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweenDemo;
+			productName = TweenDemo;
+			productReference = 8ACEF1B814ECA86000C728F6 /* TweenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ACEF1AF14ECA86000C728F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8ACEF1B214ECA86000C728F6 /* Build configuration list for PBXProject "TweenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8ACEF1AD14ECA86000C728F6;
+			productRefGroup = 8ACEF1B914ECA86000C728F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ACEF1B714ECA86000C728F6 /* TweenDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ACEF1B614ECA86000C728F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACEF1C714ECA86000C728F6 /* InfoPlist.strings in Resources */,
+				8ACEF1D314ECA86000C728F6 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ACEF1B414ECA86000C728F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACEF1C914ECA86000C728F6 /* main.m in Sources */,
+				8ACEF1CD14ECA86000C728F6 /* AppDelegate.m in Sources */,
+				8ACEF1D014ECA86000C728F6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ACEF1C514ECA86000C728F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACEF1C614ECA86000C728F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8ACEF1D114ECA86000C728F6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACEF1D214ECA86000C728F6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ACEF1D414ECA86000C728F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ACEF1D514ECA86000C728F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ACEF1D714ECA86000C728F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweenDemo/TweenDemo-Prefix.pch";
+				INFOPLIST_FILE = "TweenDemo/TweenDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ACEF1D814ECA86000C728F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweenDemo/TweenDemo-Prefix.pch";
+				INFOPLIST_FILE = "TweenDemo/TweenDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ACEF1B214ECA86000C728F6 /* Build configuration list for PBXProject "TweenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACEF1D414ECA86000C728F6 /* Debug */,
+				8ACEF1D514ECA86000C728F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACEF1D614ECA86000C728F6 /* Build configuration list for PBXNativeTarget "TweenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACEF1D714ECA86000C728F6 /* Debug */,
+				8ACEF1D814ECA86000C728F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ACEF1AF14ECA86000C728F6 /* Project object */;
+}
