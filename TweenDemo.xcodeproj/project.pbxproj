@@ -15,6 +15,15 @@
 		8ACEF1CD14ECA86000C728F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1CC14ECA86000C728F6 /* AppDelegate.m */; };
 		8ACEF1D014ECA86000C728F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1CF14ECA86000C728F6 /* ViewController.m */; };
 		8ACEF1D314ECA86000C728F6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ACEF1D114ECA86000C728F6 /* ViewController.xib */; };
+		8ACEF1DF14ECA87100C728F6 /* PRTween.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1DC14ECA87100C728F6 /* PRTween.m */; };
+		8ACEF1E014ECA87100C728F6 /* PRTweenTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1DE14ECA87100C728F6 /* PRTweenTimingFunctions.m */; };
+		8ACEF1E214ECA8B900C728F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACEF1E114ECA8B900C728F6 /* QuartzCore.framework */; };
+		8ACEF1EA14ECA92700C728F6 /* ShinobiTweener.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1E514ECA92700C728F6 /* ShinobiTweener.m */; };
+		8ACEF1EB14ECA92700C728F6 /* ShinobiTweenerStructures.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1E714ECA92700C728F6 /* ShinobiTweenerStructures.m */; };
+		8ACEF1EC14ECA92700C728F6 /* ShinobiTweenerTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1E914ECA92700C728F6 /* ShinobiTweenerTransitions.m */; };
+		8ACEF1F514ECA9A300C728F6 /* TweenC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1EF14ECA9A300C728F6 /* TweenC.m */; };
+		8ACEF1F614ECA9A300C728F6 /* TweenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1F114ECA9A300C728F6 /* TweenConstants.m */; };
+		8ACEF1F714ECA9A300C728F6 /* TweenerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEF1F414ECA9A300C728F6 /* TweenerAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +31,33 @@
 		8ACEF1BC14ECA86000C728F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8ACEF1BE14ECA86000C728F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8ACEF1C014ECA86000C728F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8ACEF1C414ECA86000C728F6 /* TweenDemo-Info.plist */ = {isa = PBXFileReference; path = "TweenDemo-Info.plist"; sourceTree = "<group>"; };
+		8ACEF1C414ECA86000C728F6 /* TweenDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweenDemo-Info.plist"; sourceTree = "<group>"; };
 		8ACEF1C614ECA86000C728F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8ACEF1C814ECA86000C728F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8ACEF1CA14ECA86000C728F6 /* TweenDemo-Prefix.pch */ = {isa = PBXFileReference; path = "TweenDemo-Prefix.pch"; sourceTree = "<group>"; };
-		8ACEF1CB14ECA86000C728F6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ACEF1CA14ECA86000C728F6 /* TweenDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweenDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8ACEF1CB14ECA86000C728F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8ACEF1CC14ECA86000C728F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8ACEF1CE14ECA86000C728F6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8ACEF1CE14ECA86000C728F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8ACEF1CF14ECA86000C728F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8ACEF1D214ECA86000C728F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8ACEF1DB14ECA87100C728F6 /* PRTween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRTween.h; sourceTree = "<group>"; };
+		8ACEF1DC14ECA87100C728F6 /* PRTween.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTween.m; sourceTree = "<group>"; };
+		8ACEF1DD14ECA87100C728F6 /* PRTweenTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRTweenTimingFunctions.h; sourceTree = "<group>"; };
+		8ACEF1DE14ECA87100C728F6 /* PRTweenTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTweenTimingFunctions.m; sourceTree = "<group>"; };
+		8ACEF1E114ECA8B900C728F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8ACEF1E414ECA92700C728F6 /* ShinobiTweener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShinobiTweener.h; sourceTree = "<group>"; };
+		8ACEF1E514ECA92700C728F6 /* ShinobiTweener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShinobiTweener.m; sourceTree = "<group>"; };
+		8ACEF1E614ECA92700C728F6 /* ShinobiTweenerStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShinobiTweenerStructures.h; sourceTree = "<group>"; };
+		8ACEF1E714ECA92700C728F6 /* ShinobiTweenerStructures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShinobiTweenerStructures.m; sourceTree = "<group>"; };
+		8ACEF1E814ECA92700C728F6 /* ShinobiTweenerTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShinobiTweenerTransitions.h; sourceTree = "<group>"; };
+		8ACEF1E914ECA92700C728F6 /* ShinobiTweenerTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShinobiTweenerTransitions.m; sourceTree = "<group>"; };
+		8ACEF1EE14ECA9A300C728F6 /* TweenC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenC.h; sourceTree = "<group>"; };
+		8ACEF1EF14ECA9A300C728F6 /* TweenC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweenC.m; sourceTree = "<group>"; };
+		8ACEF1F014ECA9A300C728F6 /* TweenConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenConstants.h; sourceTree = "<group>"; };
+		8ACEF1F114ECA9A300C728F6 /* TweenConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweenConstants.m; sourceTree = "<group>"; };
+		8ACEF1F214ECA9A300C728F6 /* TweenEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenEquations.h; sourceTree = "<group>"; };
+		8ACEF1F314ECA9A300C728F6 /* TweenerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweenerAnimation.h; sourceTree = "<group>"; };
+		8ACEF1F414ECA9A300C728F6 /* TweenerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweenerAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ACEF1E214ECA8B900C728F6 /* QuartzCore.framework in Frameworks */,
 				8ACEF1BD14ECA86000C728F6 /* UIKit.framework in Frameworks */,
 				8ACEF1BF14ECA86000C728F6 /* Foundation.framework in Frameworks */,
 				8ACEF1C114ECA86000C728F6 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +78,9 @@
 		8ACEF1AD14ECA86000C728F6 = {
 			isa = PBXGroup;
 			children = (
+				8ACEF20014ECACD500C728F6 /* Resources */,
+				8ACEF1E114ECA8B900C728F6 /* QuartzCore.framework */,
+				8ACEF1D914ECA87100C728F6 /* libs */,
 				8ACEF1C214ECA86000C728F6 /* TweenDemo */,
 				8ACEF1BB14ECA86000C728F6 /* Frameworks */,
 				8ACEF1B914ECA86000C728F6 /* Products */,
@@ -96,6 +127,61 @@
 				8ACEF1CA14ECA86000C728F6 /* TweenDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ACEF1D914ECA87100C728F6 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1DA14ECA87100C728F6 /* PRTween */,
+				8ACEF1E314ECA92700C728F6 /* ShinobiTweener */,
+				8ACEF1ED14ECA9A300C728F6 /* TweenC */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		8ACEF1DA14ECA87100C728F6 /* PRTween */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1DB14ECA87100C728F6 /* PRTween.h */,
+				8ACEF1DC14ECA87100C728F6 /* PRTween.m */,
+				8ACEF1DD14ECA87100C728F6 /* PRTweenTimingFunctions.h */,
+				8ACEF1DE14ECA87100C728F6 /* PRTweenTimingFunctions.m */,
+			);
+			path = PRTween;
+			sourceTree = "<group>";
+		};
+		8ACEF1E314ECA92700C728F6 /* ShinobiTweener */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1E414ECA92700C728F6 /* ShinobiTweener.h */,
+				8ACEF1E514ECA92700C728F6 /* ShinobiTweener.m */,
+				8ACEF1E614ECA92700C728F6 /* ShinobiTweenerStructures.h */,
+				8ACEF1E714ECA92700C728F6 /* ShinobiTweenerStructures.m */,
+				8ACEF1E814ECA92700C728F6 /* ShinobiTweenerTransitions.h */,
+				8ACEF1E914ECA92700C728F6 /* ShinobiTweenerTransitions.m */,
+			);
+			path = ShinobiTweener;
+			sourceTree = "<group>";
+		};
+		8ACEF1ED14ECA9A300C728F6 /* TweenC */ = {
+			isa = PBXGroup;
+			children = (
+				8ACEF1EE14ECA9A300C728F6 /* TweenC.h */,
+				8ACEF1EF14ECA9A300C728F6 /* TweenC.m */,
+				8ACEF1F014ECA9A300C728F6 /* TweenConstants.h */,
+				8ACEF1F114ECA9A300C728F6 /* TweenConstants.m */,
+				8ACEF1F214ECA9A300C728F6 /* TweenEquations.h */,
+				8ACEF1F314ECA9A300C728F6 /* TweenerAnimation.h */,
+				8ACEF1F414ECA9A300C728F6 /* TweenerAnimation.m */,
+			);
+			path = TweenC;
+			sourceTree = "<group>";
+		};
+		8ACEF20014ECACD500C728F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +249,14 @@
 				8ACEF1C914ECA86000C728F6 /* main.m in Sources */,
 				8ACEF1CD14ECA86000C728F6 /* AppDelegate.m in Sources */,
 				8ACEF1D014ECA86000C728F6 /* ViewController.m in Sources */,
+				8ACEF1DF14ECA87100C728F6 /* PRTween.m in Sources */,
+				8ACEF1E014ECA87100C728F6 /* PRTweenTimingFunctions.m in Sources */,
+				8ACEF1EA14ECA92700C728F6 /* ShinobiTweener.m in Sources */,
+				8ACEF1EB14ECA92700C728F6 /* ShinobiTweenerStructures.m in Sources */,
+				8ACEF1EC14ECA92700C728F6 /* ShinobiTweenerTransitions.m in Sources */,
+				8ACEF1F514ECA9A300C728F6 /* TweenC.m in Sources */,
+				8ACEF1F614ECA9A300C728F6 /* TweenConstants.m in Sources */,
+				8ACEF1F714ECA9A300C728F6 /* TweenerAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +331,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TweenDemo/TweenDemo-Prefix.pch";
 				INFOPLIST_FILE = "TweenDemo/TweenDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -248,7 +344,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TweenDemo/TweenDemo-Prefix.pch";
 				INFOPLIST_FILE = "TweenDemo/TweenDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -272,6 +370,7 @@
 				8ACEF1D814ECA86000C728F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,8 +2,7 @@
 //  AppDelegate.h
 //  TweenDemo
 //
-//  Created by 修一 堤 on 12/02/16.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Shuichi Tsutsumi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
